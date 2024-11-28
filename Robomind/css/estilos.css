@@ -1,0 +1,151 @@
+.contMenu {
+background-color: blue;
+width: 100%;
+}
+.menuInter {background-color: blue;
+width: 720px;
+margin:auto;
+}
+.menuInter a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+	width: 141px;
+	font-family:'Black Ops One';
+}
+.menuInter ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.menuInter ul li {display: inline-block;}
+.menuInter ul li:hover {background: #555;}
+.menuInter ul li:hover ul {display: block;}
+.menuInter ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+.menuInter ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+.menuInter ul li ul li a {display:block !important;
+} 
+.menuInter ul li ul li:hover {background: #666;}
+	
+.historiaresumen{
+padding: 3%;}
+
+h1{
+		font-family:'Black Ops One';
+		font-size: 40px;
+}
+p{
+	font-family: 'Inter', sans-serif;
+	font-size:20px;
+	line-height:30px;
+	text-align:justify;
+}
+
+main{
+	width:100%;
+	margin:auto;
+}
+.albums{
+	display:flex;
+	width:900px;
+	height:430px;
+	margin:auto;
+}
+
+.carruimag img{
+	width:0px;
+	flex-grow:1;
+	object-fit:cover;
+	opacity:8;
+	transition:ls ease;
+	padding:0.5%;
+}
+
+.carruimag img:hover{
+	width:300px;
+	opacity:1;
+	filter:contrast(120%);
+	
+}
+.txt80{
+	width: 65%;
+	float:right;
+	margin : 2px;
+	
+}
+.espacio{
+	width:85%;
+	margin:auto;
+}
+.txt81{
+	width:65%;
+	float:left;
+	margin-right:165px;
+}
+
+.local img{
+  align-items: center;
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .9;
+  transition: .5s ease;
+}
+.local img:hover{
+  cursor:crosshair;
+  width: 300px;
+  opacity: 1;
+  filter:contrast(120%);
+}
+
+.local{
+  display: flex;
+  width: auto;
+  height: 450px;
+  border-radius: 7px;
+  padding-top: 30px;
+  margin-top: 30px;
+  margin-bottom: 3%;
+  margin-right: auto;
+  margin-left:auto;
+}
+body{
+  background: linear-gradient(45deg,rgba(23, 128, 214, 0.959),rgb(9, 100, 136),rgb(162, 159, 223),rgba(117, 188, 209, 0.959));
+ background-size: 400% 400%;
+ position: relative;
+ animation: cambiar 5s ease-in-out infinite;
+   text-decoration: aliceblue;
+   cursor: url(img/pincel.png) 0 20,auto;
+  
+}
+
+
+@keyframes cambiar{
+ 0%{background-position: 0 50%;}
+ 50%{background-position: 100% 50%;}
+ 100%{background-position: 0 50%;}
+}
+
+
+@keyframes show {
+ from{
+     opacity: 0;
+     scale: 25%;
+ }
+ to{
+     opacity: 2;
+     scale: 100%;
+ }
+}
+.bi bi-instagram{
+float: right;
+}
